@@ -7,8 +7,8 @@ class Intialstatue extends PostCubitStatue {}
 class Loadingstatue extends PostCubitStatue {}
 
 class Succestate extends PostCubitStatue {
-  final List<PostModel> model;
-  Succestate({required this.model});
+  final List<PostModel> posts;
+  Succestate({required this.posts});
 }
 
 class Failurestate extends PostCubitStatue {
